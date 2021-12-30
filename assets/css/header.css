@@ -1,0 +1,24 @@
+.hide_signIn_signUp
+{
+	color: #fff;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 32px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.loginAccount:hover{	    
+	background: #F2F2F2;
+	transition:0.3s all;
+}
+
+.navbar-default{
+	background:#fff!important;
+}
+
+header .fa {
+    font-size: 13px!important;
+}
+

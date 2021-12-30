@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hideme
+{
+    opacity:0;
+}
+
+.support-main{
+	margin:70px auto;
+}
+
+.gp_products_inner:hover .gp_products_item_image {
+    background: #fff;
+	cursor:pointer;
+}

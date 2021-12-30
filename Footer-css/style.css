@@ -1,0 +1,267 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Roboto;
+}
+
+.img-1
+{
+    background-image: url(../assets/images/team-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: auto;
+    
+}
+.div-1{
+    position: relative;
+    
+}
+
+.div-1 h5{
+    bottom: 0%;
+    right:6%;
+    position: absolute;
+    padding: 2px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.808);
+    font-family: roboto;
+    
+}
+
+/* footer start */
+footer {
+    background-color: pink;
+    padding-top: 30px;
+    border-top: 1px solid #cecece;
+    color: #fff;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    font-size: 15px
+
+}
+
+
+.footer-widget {
+    margin-bottom: 45px;
+}
+
+.footer-widget h4 {
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    margin-bottom: 120px;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+}
+
+.footer-widget h4 .head-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #dc1f28;
+    margin: 0;
+}
+
+.social-widget ul.social-icons li {
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+.social-widget ul.social-icons li a i {
+    font-size: 1.3em;
+    width: 33px;
+    height: 33px;
+    color: #fff;
+    /*background:#dc1f28;*/
+    line-height: 34px;
+    text-align: center;
+    display: block;
+    border-radius: 33px;
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    -o-border-radius: 33px;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.social-widget ul.social-icons li a:hover {
+    text-decoration: none;
+}
+
+.social-widget ul.social-icons li a.facebook:hover i {
+    background-color: #507CBE;
+}
+
+.social-widget ul.social-icons li a.twitter:hover i {
+    background-color: #63CDF1;
+}
+
+
+.social-widget ul.social-icons li a.linkdin:hover i {
+    background-color: #0077b5;
+}
+
+.social-widget ul.social-icons li a.whatsapp:hover i {
+    background-color: #06d755;
+}
+
+footer a.facebook i {
+    background-color: #507CBE;
+}
+
+footer a.twitter i {
+    background-color: #63CDF1;
+}
+
+footer a.linkdin i {
+    background-color: #0077b5;
+}
+
+footer a.whatsapp i {
+    background-color: #06d755;
+}
+
+
+
+.twitter-widget a:hover {
+    color: #43B9CD;
+    text-decoration: underline;
+}
+
+.twitter-widget ul li {
+    margin-bottom: 20px;
+}
+
+.twitter-widget ul li span {
+    color: #666;
+}
+
+
+
+
+.copyright-section {
+    padding: 15px 0;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    border-top: 1px solid rgba(255, 255, 255, .06);
+}
+
+.copyright-section p {
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.copyright-section p a:hover {
+    text-decoration: underline;
+    color: #dc1f28;
+}
+
+ul.footer-nav {
+text-align: center;
+}
+
+ul.footer-nav li {
+    display: inline-block;
+   
+    margin-left: 15px;
+}
+
+ul.footer-nav li:first-child {
+    margin-left: 0;
+}
+
+ul.footer-nav li a {
+    
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+ul.footer-nav li a:hover {
+    color: #dc1f28;
+}
+
+/* footer end */
+
+
+.progress{
+    height: 2px !important;
+    
+}
+
+.progress-bar{
+    background-color: red !important;
+    width:18%;
+}
+
+/* Contact Css  Start*/
+.form-right-panel{
+    padding: 30px;
+    background: linear-gradient( 
+45deg , #8200f2 1%, #f14cb1 100%);
+    height: 100%;
+
+}
+
+.bg_image_contact{
+    background: url(../assets/images/img_contact.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+
+
+}
+/* Contact Css  End*/
+
+/* Graphic desgin start */
+
+.bg_image_graphic{
+      background: url(../assets/images/graphic_design.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+/* Graphic desgin End */
+
+@media only screen and (max-width: 450px) {
+    .progress{
+        height: 2px !important;
+        
+        
+    }
+    
+    .progress-bar{
+        background-color: red !important;
+        width:32%;
+    }
+    
+  }
